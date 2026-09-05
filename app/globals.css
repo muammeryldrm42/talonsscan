@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background: #0d1220; color: #e8ecf7; }
+body { font-family: "IBM Plex Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+.num { font-variant-numeric: tabular-nums; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid #4f8cff; outline-offset: 2px; }
+::selection { background: #4f8cff55; }
